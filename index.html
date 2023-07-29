@@ -8,37 +8,206 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link rel="icon" type="image/x-icon" href="images/fav.png">
+
 </head>
 <body>
     
-    <div class="hero">
-        <nav>
-            <h2 class="logo">dev <span>.Dhrubo</span></h2>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <button class="btn">Let's talk</button>
-        </nav>
-    </div>
+    <!-- header design -->
+    
 
-    <section class="main">
-        <div class="main-left">
-            <h1>Front End Web <br> Developer <br>......</h1>
-            <p>Hi There, I'm Dhrubo. I'm working as a <br> Front End Web designer & Ui Designer for <br> the last 3 years.</p>
-            <button class="btn">
-                Hire Me
-            </button>
+    <header class="header">
+        <a href="#" class="logo">dev<span>.Dhrubo</span></a>
+
+        <box-icon name='menu' id="menu-icon"><i class='bx bx-menu'></i></box-icon>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Work</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+
+
+    <!-- home section -->
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Dolan Dhrubo</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Meet Your Creative Website Designer. I can design your creative and <br> stunning Websites for Your Success😉</p>
+            <div class="social-media">
+                <a href="https:www.facebook.com/developerdhrubo" target="_blank"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://www.linkedin.com/in/developerdhrubo/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/devDhrubo" target="_blank"><i class='bx bxl-github' ></i></a>
+            </div>
+
+            <a href="#contact" class="btn">Let's talk</a>
+
         </div>
 
-        <div class="main-right">
-            
+        <div class="home-img">
+            <img src="images/main-img.png" alt="">
+        </div>
+    </section>
+
+    <!-- about section -->
+
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/main-img.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+                <h3>Frontend Developer</h3>
+                <p>I'm Dhrubo. I'm working as a Web designer & Ui Designer for the last 3 years. Whether I would love to help with WordPress, Front-End Design & Ui Design also. I will use my extensive web expertise to deliver only the best and most professional work to all of my clients😉</p>
+                <a href="#contact" class="btn">Let's talk</a>
         </div>
     </section>
 
 
+    <!-- sevice design -->
+
+    <section class="services" id="services">
+        <h2 class="heading">
+            My <span>Services</span>
+        </h2>
+        <div class="service-container">
+        <div class="service-box">
+            <i class='bx bx-code-alt' ></i>
+            <h3>Web Design</h3>
+            <p>Best and affordable solutions for Web Designs. Which is responsive and User-Friendly that fits all class of devices.</p>
+            <a href="#portfolio" class="btn">Explore</a>
+        </div>
+
+        <div class="service-box">
+            <i class='bx bxl-sketch'></i>
+            <h3>Ui Design</h3>
+            <p>UI design for websites focuses on creating intuitive and visually appealing <br> user interfaces.</p>
+            <a href="#portfolio" class="btn">Explore</a>
+        </div>
+
+        <div class="service-box">
+            <i class='bx bxl-wordpress'></i>
+            <h3>Wordpress</h3>
+            <p>WordPress is a popular and user-friendly content management system (CMS) used to build and manage websites.</p>
+            <a href="#portfolio" class="btn">Explore</a>
+        </div>
+    </div>
+    
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/portfolio/portfolio1.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Agency Website</h4>
+                    <p>Welcome to our creative agency's digital hub, where imagination knows no bounds</p>
+                    <a href="portfolio1.html" target="_blank"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio/portfolio2.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Donating Web</h4>
+                    <p>At our donating website, we believe that generosity knows no boundaries.</p>
+                    <a href="portfolio2.html" target="_blank"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio/portfolio3.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Consulting Web</h4>
+                    <p>Welcome to our dynamic creative consulting website, where innovation meets strategy.</p>
+                    <a href="portfolio3.html" target="_blank"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio/portfolio4.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Smart Home</h4>
+                    <p>Experience the art of smart living through our interactive demos and virtual home tours</p>
+                    <a href="portfolio4.html" target="_blank"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio/portfolio5.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>App Starup</h4>
+                    <p>Welcome to our dynamic app startup website, where ideas innovation knows no bounds.</p>
+                    <a href="portfolio5.html" target="_blank"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio/portfolio6.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Car Rental</h4>
+                    <p>Welcome to our innovative car rental platform, where your journey begins with creativity</p>
+                    <a href="portfolio6.html" target="_blank"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- contact section -->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Number">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+
+        <div class="call-me">
+            <i class='bx bxs-phone'></i>
+            <h2>+880 1721561087</h2>
+
+            <i class='bx bx-envelope' ></i>
+            <h2>dolandhruboray@gmail.com</h2>
+
+            <i class='bx bxs-home'></i>
+            <h2>Dhaka, Bangladesh</h2>
+
+        </div>
+    </section>
+
+    <!-- footer design -->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Developer Dhrubo | All Rights Reserves</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bxs-chevron-up'></i></a>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/script.js"></script>
+    
 </body>
 </html>
